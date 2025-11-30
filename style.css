@@ -1,0 +1,134 @@
+body {
+            margin: 0;
+            font-family: Arial;
+            background: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-image: url("travel.jpg");
+            background-size: cover;
+            height: 400px;
+            color: #2f4432;
+            text-decoration: underline;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* Navbar */
+        nav {
+            background: #568259;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #568259;
+        }
+
+        /* Sections */
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #127d39;
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+
+        /* Packages Cards */
+        .packages {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .card {
+            width: 260px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            overflow: hidden;
+            margin-right: 50px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            
+        }
+
+        .card h3 {
+            margin: 15px 0 5px;
+        }
+
+        .card p {
+            padding: 0 15px 15px;
+            font-size: 15px;
+        }
+
+        /* Booking Form */
+        form {
+            background: white;
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background: #127d39;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #127d39;
+        }
+
+        /* Gallery */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 160px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+            margin-right: 75px;
+        }
+
+        /* Footer */
+        footer {
+            background: #568259;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
