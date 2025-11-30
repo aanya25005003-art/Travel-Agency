@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header><h1>Travel and Enjoy Agency</h1></header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#packages">Packages</a>
+    <a href="#booking">Booking</a>
+    <a href="#tips">Travel Tips</a>
+    <a href="#gallery">Gallery</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to Explore Travel and Enjoy Agency</h2>
+    <p>Pack your bags! Your next adventure is waiting — discover, explore, and travel the world with us.</p>
+</section>
+
+<section id="packages">
+    <h2>Popular Tour Packages</h2>
+
+    <div class="packages">
+        <div class="card">
+            <img src="img1.jpg">
+            <h3>Paris Getaway</h3>
+            <p>5 Days | ₹75,000</p>
+        </div>
+
+        <div class="card">
+            <img src="Img2.jpg">
+            <h3>Dubai Luxury Trip</h3>
+            <p>4 Days | ₹60,000</p>
+        </div>
+
+        <div class="card">
+            <img src="Img3.webp">
+            <h3>Thailand Beach Tour</h3>
+            <p>6 Days | ₹55,000</p>
+        </div>
+
+        <div class="card">
+            <img src="Img4.jpeg" alt="Switzerland">
+            <h3>Switzerland – Snow Adventure</h3>
+            <p>7 Nights | ₹1,20,000</p>
+        </div>
+
+        <div class="card">
+            <img src="Img5.jpg" alt="Goa">
+            <h3>Goa – Sun & Sand</h3>
+            <p>3 Nights | ₹18,000</p>
+        </div>
+    </div>
+</section>
+
+<section id="booking">
+    <h2>Book Your Tour</h2>
+
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+
+        <select id="destination">
+            <option>Select Destination</option>
+            <option>Paris</option>
+            <option>Dubai</option>
+            <option>Thailand</option>
+        </select>
+
+        <input type="date" id="date" required>
+        <button type="submit">Book Now</button>
+    </form>
+
+    <p id="message" style="color: green; font-weight: bold; margin-top: 20px;"></p>
+</section>
+
+<section id="tips">
+    <h2>Travel Tips</h2>
+    <p>✔ Carry important documents safely.<br>
+       ✔ Keep a small first-aid kit.<br>
+       ✔ Learn basic phrases of the local language.<br>
+       ✔ Book hotels and tickets early for better prices.<br>
+       ✔ Always carry a power bank & travel adapter.</p>
+</section>
+
+<section id="gallery">
+    <h2>Destination Gallery</h2>
+
+    <div class="gallery">
+        <img src="Img6.webp">
+        <img src="Img7.jpeg">
+        <img src="Img8.jpg">
+        <img src="Img9.jpeg">
+        <img src="Img10.avif">
+        <img src="Img11.avif">
+    </div>
+</section>
+
+<footer>
+    © 2025 Travel and Enjoy Agency | All Rights Reserved
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
